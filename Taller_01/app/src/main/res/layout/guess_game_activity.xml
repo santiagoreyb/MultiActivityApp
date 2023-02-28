@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/PlayButtonID"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:backgroundTint="@color/purple"
+        android:text="PLAY"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NumberHintEditTextID"
+        app:layout_constraintVertical_bias="0.07"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/GuessNumberTextViewID"
+        android:layout_width="382dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="91dp"
+        android:textColor="@color/blue"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/NumberHintEditTextID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/NumberHintEditTextID"
+        android:layout_width="342dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GuessNumberTextViewID"
+        tools:text="number..." />
+
+    <TextView
+        android:id="@+id/CounterTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="counter: "
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlayButtonID"
+        app:layout_constraintVertical_bias="0.033"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/MessageTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message: "
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CounterTextViewID"
+        app:layout_constraintVertical_bias="0.029"
+        tools:ignore="HardcodedText" />
+</android.support.constraint.ConstraintLayout>

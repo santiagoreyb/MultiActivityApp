@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Taller 1</string>
+    <string name="capital">Capital</string>
+    <string name="countryName">CountryName</string>
+    <string name="internationalCountryName">InternationalCountryName</string>
+    <string name="initials">Initials</string>
+    <string name="flag">Flag</string>
+    <string-array name="LanguagesStringArray">
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>Русский</item>
+        <item>中国人</item>
+    </string-array>
+</resources>
