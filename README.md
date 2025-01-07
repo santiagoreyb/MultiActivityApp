@@ -1,4 +1,4 @@
-# Taller 1: Aplicación de Introducción a la Computación Móvil
+# MultiActivityApp: Aplicación de Computación Móvil
 
 ## Descripción
 Este proyecto consiste en el desarrollo de una aplicación Android con diferentes funcionalidades distribuidas en varias actividades. El proyecto está diseñado para practicar conceptos básicos de desarrollo móvil utilizando Android Studio.
