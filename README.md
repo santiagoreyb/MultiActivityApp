@@ -80,8 +80,6 @@ Este proyecto consiste en el desarrollo de una aplicación Android con diferente
 - **Figura 1:** Actividad Principal (portrait y landscape).
 - **Figura 2:** Actividad Guess Game.
 
-> *(Las capturas pueden agregarse aquí para mejor documentación)*
-
 ## Licencia
 Este proyecto es de uso académico y no está destinado para distribución comercial.
 
