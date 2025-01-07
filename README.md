@@ -76,14 +76,13 @@ Este proyecto consiste en el desarrollo de una aplicación Android con diferente
 - Validación de entradas en tiempo real.
 - Diseño responsivo adaptable a diferentes tamaños de pantalla.
 
-## Capturas de Pantalla
-- **Figura 1:** Actividad Principal (portrait y landscape).
-- **Figura 2:** Actividad Guess Game.
+## Video Demotrativo
+https://youtu.be/WEnVgdq_42A
 
 ## Licencia
 Este proyecto es de uso académico y no está destinado para distribución comercial.
 
 ---
-**Autor:** [Tu Nombre]  
+**Autor:** Santiago Camilo Rey Benavides
 **Curso:** Introducción a la Computación Móvil  
 **Fecha:** Octubre 2023
